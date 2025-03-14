@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+   
+
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <p id="myname">My Portfolio</p>
+            <div class="nav-links">
+                <a href="#">Home</a>
+                <a href="#about-section">About</a>
+                <a href="#Experience">Experience</a>
+                <a href="#Education">Qualification</a>
+                <a href="#project">Projects</a>
+                <a href="#contact-info">Contact</a>
+            </div>
+            <div class="search-container">
+                <input type="search" id="search-input" name="search" placeholder="Search...">
+                <button id="search-button">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div class="Intro">
+        <div class="intro-content">
+            <h1 >Hi, I'm Arunchand Mallarapu</h1>
+            <h3 >Information Technology Engineering Student</h3>
+            <br/>
+            <p >I'm an undergraduate engineering student at Vasavi College <br/> of Engineering, Hyderabad.</p>
+            <br><br/>
+            <br/>
+            <div class="social-buttons">
+                <a href="https://www.linkedin.com/in/arunchand-mallarapu-3b03a828b/" class="social-button linkedin" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Arunchand19" class="social-button github" target="_blank">GitHub</a>
+            </div>
+            <br><br/>
+            <div class="scroll-down-container">
+                <div class="name-scroll">Looking forward to work with an organisation and worked on various technologies. </div>
+                <br><br/>
+                <p style="text-align: center;">scroll down</p>
+                <a href="#about-section" class="scroll-down-button">↓</a>
+            </div>
+        </div>
+        <div class="intro-image-container">
+            <img src="photo.jpeg" alt="img" class="intro-image" />
+        </div>
+    </div>
+    
+    
+
+
+   
+
+    <br><br/>
+    <div id="about-section" class="about">
+        <h1 style="text-align: center;">About Me</h1>
+        <br><br/>
+        <h3 style="font-size:30px;">My Introduction</h3>
+        <br><br/>
+        <p>I'm a undergraduate, passionate about technology and continuously expanding my skills in software development. I thrive on tackling new challenges and collaborating on innovative projects. I am driven to constantly improve myself. Currently, I am seeking a challenging role that will help me expand my skill set and contribute meaningfully to the organization.</p>
+        <h3 style="font-size:28px;">Additional Details</h3>
+        <br/>
+        <p>Besides my technical skills, I have developed strong communication and leadership skills through various college projects and extracurricular activities. I am particularly interested in software development, data science, and artificial intelligence.</p>
+
+        <div class="extra-info">
+            <p><strong>CGPA: 8.87</strong></p>
+            <p><strong>Experience: Worked on Industry projects.</strong></p>
+            <p><strong>Hobbies: Playing Cricket ,Table Tennis.</strong></p>
+        </div>
+
+        <a href="Arunchand resume.pdf" download class="download-button">Download Resume</a> 
+    </div>
+
+    <br><br/>
+  
+
+    <div id="Experience" class="exp">
+        <h1>Experience</h1>
+        <br/>
+        <div class="experience-item">
+            <h3>Oasis Web Development Internship</h3>
+            <p>Learned and worked on web development projects using various technologies such as React.js and Node.js.</p>
+            <br/>
+            <a href="M.Arunchand oasis.pdf" class="view-certificate">View Certificate</a>
+        </div>
+        <div class="experience-item">
+            <h3>Walmart Virtual Intern</h3>
+            <p>Worked on virtual tasks related to software engineering and problem-solving.</p>
+            <br/>
+            <a href="walmart advanced software engineering simulation cerification.pdf" class="view-certificate">View Certificate</a>
+        </div>
+
+        <br><br/>
+        <h1>Skills</h1>
+        <div class="skills-container">
+            <div class="skills-left">
+                <h2>Programming Languages:</h2>
+                <br/>
+                <ul type="circle">
+                   <li>Java</li>
+                   <li>C</li>
+                   <li>Python</li>
+                   <li>Javascript</li>
+                </ul>
+            </div>
+
+            <div class="skills-right">
+                <h2>Technologies:</h2>
+                <br/>
+                <ul type="circle">
+                    <li>React.js</li>
+                    <li>Node.js</li>
+                    <li>Flask Python</li>
+                    <li>MongoDB</li>
+                 </ul>
+            </div>
+            <div class="skills-right">
+                <h2>IT Constructs:</h2>
+                <br/>
+                <ul type="circle">
+                    <li>DS & Algorithms</li>
+                    <li>DBMS</li>
+                    <li>OOPS</li>
+                    <li>CO</li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+
+    <br><br/>
+
+   <div id="Education" class="edu">
+      <h1>Education</h1>
+      <br/>
+      <h2>Schooling</h2>
+      <br/>
+      <h3>Sri Chaitanya High School</h3>
+      <p>Year: 2020</p>
+      <button onclick="toggleDetails('school-details')">View more</button>
+      <div id="school-details" class="hidden-details">
+        <ul>
+        <li> 1) Subjects studied: Science, Maths, English, Social Studies,Telugu,Hindi.</li>
+
+        <li> 2) Scored 10 GPA </li>
+            
+        <li> 3) winner up in school Kho-Kho as Captain.</li>
+    </ul>
+      </div>
+      <br/>
+
+      <h2>Intermediate</h2>
+      <br/>
+      <h3>Sri Chaitanya Junior College</h3>
+      <p>Year: 2022</p>
+      <button onclick="toggleDetails('intermediate-details')">View more</button>
+      <div id="intermediate-details" class="hidden-details">
+        <ul >
+            <li> 1) Subjects studied:  Maths, Physics, Chemistry.</li>
+
+            <li> 2) Scored 95.2% . </li>
+                
+            <li> 3) Member of College Cricket Team.</li>
+        </ul>
+      </div>
+      <br/>
+
+      <h2>College</h2>
+      <br/>
+      <h3>Vasavi College of Engineering</h3>
+      <p>Year: 2023</p>
+      <button onclick="toggleDetails('college-details')">View more</button>
+      <div id="college-details" class="hidden-details">
+        <ul >
+            <li> 1) Department: Information Technology</li>
+
+            <li> 2) CGPA: 8.87 . </li>
+                
+            <li> 3) Member of Cricket, Table Tennis club at college.</li>
+        </ul>
+      </div>
+   </div>
+
+   <script>
+    function toggleDetails(elementId) {
+        var element = document.getElementById(elementId);
+        // Toggle visibility by checking the current display style
+        if (element.style.display === "none" || element.style.display === "") {
+            element.style.display = "block";  // Show the details
+        } else {
+            element.style.display = "none";   // Hide the details
+        }
+    }
+</script>
+
+
+   <br><br/>
+   <div id="project" class="projects-section">
+    <h1>Projects</h1>
+    <br><br/>
+    <br><br/>
+    <!-- Carousel Section -->
+           
+    <div class="carousel">
+        <div class="carousel-container">
+            <!-- Carousel Item 1 -->
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="1.png" class="carousel-image" >
+                    <div class="carousel-text">
+                        <h3>Project 1.Food On Train</h3>
+                        <p> First page of project interface. It will display Logo of the 
+                            project and ask the user to enter the Train number for verifying the train details by the clicking on 
+                            search button.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Item 2 -->
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="2.png" alt="Project 2" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>1.1 Restaurants page</h3>
+                        <p> Shows the restaurants available at the selected station and also it will display the matplotlib 
+                            graph for restaurant rating at the station.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Item 3 -->
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="3.png" alt="Project 3" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>1.2 Menu page</h3>
+                        <p>Display the Menu at the selected restaurant. In this page, ask the user to add the 
+                            food items into the cart by selecting the quantity and clicking on add button.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Item 4 -->
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="4.png" alt="Project 4" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>1.3 Your Cart</h3>
+                        <p> Display the selected cart items by the user. And, user can delete the food item in the cart 
+                            based on quantity.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Duplicate items for seamless looping -->
+            <!-- Carousel Item 1 Duplicate -->
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="5.png" alt="Project 1" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>1.4 Payment options</h3>
+                        <p>Display the payment options like using UPI and Card details. Also, it will display the 
+                            Total Bill amount. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Item 2 Duplicate -->
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="6.png" alt="Project 2" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>1.5 OTP Verification</h3>
+                        <p>It will send the 
+                            OTP to respective Gmail given for verification. For Gmail OTP Google API and SMTP Protocol. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Item 3 Duplicate -->
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="per3.png" alt="Project 3" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>Project 2. Perfume-shop</h3>
+                        <p>This is the Front page of website and user can explore things.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Carousel Item 4 Duplicate -->
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="per1.png" alt="Project 4" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>2.1 Perfume Products</h3>
+                        <p>Displaying various perfume products and redirect to buy page by clicking on the product.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="per4.png" alt="Project 5" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>2.2 Details of Perfume</h3>
+                        <p>Enabling the link of perfume product and share buttons through various platforms.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="carousel-content">
+                    <img src="revimg.png" alt="Project 6" class="carousel-image">
+                    <div class="carousel-text">
+                        <h3>2.3 FeedBack Section</h3>
+                        <p>Featuring user to give Feddback through email.</p>
+                    </div>
+                </div>
+            </div>
+            
+            
+
+        </div>
+
+        <!-- Add Left and Right Controls -->
+        <button class="carousel-control left" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="carousel-control right" onclick="moveSlide(1)">&#10095;</button>
+
+    </div>
+<script>
+
+  document.getElementById('search-button').addEventListener('click', function(e) {
+      e.preventDefault();  // Prevent any default form submission
+      let searchQuery = document.getElementById('search-input').value.trim();
+      if (searchQuery) {
+          // window.find will search the page and highlight the first match
+          if (!window.find(searchQuery)) {
+              alert("Text not found!");
+          }
+      } else {
+          alert("Please enter a search term.");
+      }
+  });
+
+
+   let currentIndex = 0;
+
+function moveSlide(direction) {
+    const container = document.querySelector('.carousel-container');
+    const totalItems = document.querySelectorAll('.carousel-item').length / 2; // considering duplicates
+    const itemWidth = document.querySelector('.carousel-item').offsetWidth + 20; // Including margin
+
+    // Update the index based on the direction
+    currentIndex += direction;
+
+    // Loop through the items
+    if (currentIndex >= totalItems) {
+        currentIndex = 0;
+    } else if (currentIndex < 0) {
+        currentIndex = totalItems - 1;
+    }
+
+    // Move the carousel container
+    container.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
+}
+
+
+</script>
+</div>
+
+
+
+<br><br/>
+<br><br/>
+
+<br><br/>
+<h1 style="text-align: center;">Contact Info</h1>
+<div id="contact-info" class="contact-feedback-container">
+    <!-- Contact Info Section (Left Side) -->
+    <div id="contact" class="con">
+        <br/>
+        
+        <br/>
+        <div class="contact-item">
+            <h3><i class="fas fa-phone-alt"></i> Contact</h3>
+            <h4>91+ 9347726631</h4>
+        </div>
+        <br/>
+        <div class="contact-item">
+            <h3><i class="fas fa-envelope"></i> Email</h3>
+            <h4>arunchandmallarapu@gmail.com</h4>
+        </div>
+        <br/>
+        <div class="contact-item">
+            <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
+            <h4>Hyderabad, Telangana</h4>
+        </div>
+        <br/>
+    </div>
+
+    <!-- Feedback Form Section (Right Side) -->
+    <div id="feedback" class="feedback">
+        <h1>Feedback</h1>
+        <br/>
+        <form action="mailto:arunchandmallarapu@gmail.com" method="post" enctype="text/plain" class="feedback-form">
+            <div class="form-group">
+                <label for="name"><i class="fas fa-user"></i> Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label for="email"><i class="fas fa-envelope"></i> Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            <br/>
+            <div class="form-group">
+                <label for="feedback"><i class="fas fa-comment-dots"></i> Feedback</label>
+                <textarea id="feedback" name="feedback" placeholder="Write your feedback..." required></textarea>
+            </div>
+            <br/>
+            <button type="submit" class="feedback-btn">Send Message</button>
+        </form>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
